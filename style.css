@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400');
 
 html, body {
-    font-family: Comfortaa;
+    font-family: Comfortaa, sans-serif;
     background: #2C3333;
 }
 
