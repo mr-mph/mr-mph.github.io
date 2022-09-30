@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400');
+
+html, body {
+    font-family: Comfortaa;
+    background: #2C3333;
+}
+
+header {
+    display: flex;;
+    justify-content: center;
+}
+
+.content {
+    color: #A5C9CA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+}
+
+.card {
+    background: #395B64;
+    width: 380px;
+    padding: 2vw;
+    margin: 40px 10px;
+    border-radius: 10px;
+}
+
+#card-title {
+    display: flex;
+    margin-bottom: 1vw;
+}
+
+#card-content { 
+    display: flex;
+    font-size: 30pt;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 8vw;
+    color: #E7F6F2;
+    text-transform: uppercase;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    transition: filter 50ms ease, transform 50ms ease;
+    width: fit-content;
+}
+
+h1:hover {
+    filter: brightness(2);
+    transform: scale(1.05);
+}
+
+img {
+    width: 120px;
+    height: 100px;
+}
+
+h2 {
+    font-size: 40pt;
+    margin: 20px 0 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 50ms ease, filter 50ms ease;
+}
+
+a:hover {
+    transform: scale(1.08);
+    filter: brightness(1.5);
+}
