@@ -5,29 +5,30 @@
 }
 
 html, body {
-    font-family: Comfortaa, sans-serif;
-    background: #2C3333;
+    font-family:  system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    background: #0d1117;
 }
 
 header {
-    display: flex;;
+    display: flex;
     justify-content: center;
 }
 
 .content {
-    color: #A5C9CA;
+    color: #c9d1d9;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     width: fit-content;
     margin: auto;
+    justify-content: center;
 }
 
 .card {
-    background: #395B64;
+    background: #30363d;
     width: 380px;
     padding: 2vw;
     margin: 40px 10px;
+    border: #424344 2px solid;
     border-radius: 10px;
     text-decoration: none;
     color: inherit;
@@ -47,19 +48,14 @@ header {
 }
 
 h1 {
-    font-size: 60pt;
-    color: #E7F6F2;
+    font-size: 40pt;
+    color: #c9d1d9;
     text-transform: uppercase;
     align-content: center;
     display: flex;
     justify-content: center;
     transition: filter 50ms ease, transform 50ms ease;
     width: fit-content;
-}
-
-h1:hover {
-    filter: brightness(2);
-    transform: scale(1.05);
 }
 
 img {
@@ -73,6 +69,6 @@ h2 {
 }
 
 a:hover {
-    transform: scale(1.08);
-    filter: brightness(1.5);
+    transform: scale(1.02);
+    filter: brightness(1.2);
 }
